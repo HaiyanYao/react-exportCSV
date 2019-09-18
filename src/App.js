@@ -13,7 +13,12 @@ class App extends React.Component {
       custs.push({firstName: `first${i}`, lastName: `last${i}`,
       email: `abc${i}@gmail.com`, address: `000${i} street city, ST`, zipcode: `0000${i}`});
     }
+
+
     return custs;
+
+
+    
   }
 
   state = {
